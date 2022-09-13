@@ -5,19 +5,22 @@ body{
     box-sizing: border-box;
 }
 .container{
-    width: 100%;
-    height: 100vh;  
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;  
     display: flex;
     flex-direction: column;
 }
 .header{
-    flex-basis: 20%;
+    width: 1300px;
+    height: 120px;
     color: white;
     display: flex;
     justify-content: start;
 }
 .logo{
-    flex-basis: 18.5%; 
+    width: 360px;
+    height: 120px;
 }
 .logo_img{
     width: 360px;
@@ -25,43 +28,51 @@ body{
     text-align: center;
     margin: 10px auto;
 }
-.logo_img{
+.log_img img{
     width: 360px;
     height: 120px;
 }
 .img2{
-    flex-basis: 81.5%;
-    background-image: url(rocket.jpg);
-    background-size: contain;
-    
+    width: 940px;
+    height: 120px;
 }
-
+.img2 img{
+    width: 940px;
+    height: 120px;
+}
 .center{
-    flex-basis: 80%;
+    width: 1300px;
+    height: 680px;
     display: flex;
     justify-content: start;
 }
 .section{
-    flex-basis: 15%;
+    width: 360px;
+    height: 680px;
     background-color: lightgoldenrodyellow;
 }
 .nav{
-    flex-basis: 85%;
+    width: 940px;
+    height: 680px;
     background-color: lightgoldenrodyellow;
 }
+.inptu_bt{
+    width: 940px;
+    height: 680px;
+}
 .input_{
-    width: 1000px;
+    width: 940px;
     height: auto;
     margin: 20px auto;
 }
 .inputbox{
-    width: 1000px;
+    width: 940px;
     height: auto;
     margin: 20px auto;
 }
 .input{
     width: 660px;
-    height: 35;
+    height: 35px;
     display: flex;
     margin: 10px;
 }
@@ -81,7 +92,7 @@ body{
     margin-top: 10px;
 }
 .button{
-    width: 1000px;
+    width: 680px;
     height: 50px;
     position: relative;
 }
