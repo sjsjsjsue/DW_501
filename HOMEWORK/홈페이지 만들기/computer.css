@@ -20,17 +20,12 @@ body{
 .logo{
     width: 360px;
     height: 120px;
-    /* background-image: url(coupang1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; */
     background-color: #eae8e8;
 }
 .logo_img{
     width: 360px;
     height: 120px;
     text-align: center;
-    margin: 10px auto;
 }
 .logo_img img{
     width: 360px;
@@ -94,7 +89,7 @@ body{
     height: 650px;
     display: flex;
     justify-content: space-around;
-    
+    background-color: #eae8e8;
 }
 .img{
     border-radius: 20px;
@@ -102,7 +97,7 @@ body{
     height: 400px;
     margin: 30px 30px 0 40px;
     border: 1px solid lightslategray;
-    background-color: lig;
+    background-color: white;
 }
 .img1 img{
     width: 250px;

@@ -16,7 +16,7 @@ body{
     display: flex;
 }
 .logo{
-    
+    width: 350px;
     height: 100px;
 }
 .log_img{
@@ -30,15 +30,18 @@ body{
     height: 95px;
 }
 .header_img{
-    background-color: lightseagreen;
+    width: 950px;
+    height: 100px;
+}
+.header_img img{
     width: 950px;
     height: 100px;
 }
 .center{
     width: 1300px;
     height: 700px;
-    color: white;
     display: flex;
+    background-color: #eae8e8;
 }
 .left{
     width: 350px;
@@ -54,6 +57,7 @@ body{
     height: 180px;
     margin: 0 auto;
     margin-top: 20px;
+    background-color: white;
 }
 .new_idpass{
     width: 330px;
@@ -135,13 +139,17 @@ body{
     cursor: pointer;
 }
 .right{
-    background-color: lightsalmon;
+    background-color: #eae8e8;
     width: 950px;
     height: 700px;
 }
 .right_img{
-    background-color: lightgreen;
-    width: 850px;
-    height: 200px;
+    width: 700px;
+    height: 270px;
     margin: 70px auto;
+    background-color: aquamarine;
+}
+.right_img img{
+    width: 700px;
+    height: 270px;
 }
