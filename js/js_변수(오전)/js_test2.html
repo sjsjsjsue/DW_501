@@ -96,7 +96,7 @@
     var ptime = time >= 120 ? time - 120 : time -30;  // 총 주차시간에서 기본시간 제외
     
     var price = (parseInt(ptime/10)*100) + cost;
-    price = time < 40 ? cost: price
+    price = time < 40 ? cost: price;
     document.write("주차시간 : " + time +"분 주차요금 : "+price);
 
 
