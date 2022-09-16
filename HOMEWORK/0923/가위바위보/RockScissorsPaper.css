@@ -1,0 +1,95 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1300px;
+    height: 900px;
+    margin: 0 auto;
+}
+.computer{
+    width: 1300px;
+    height: 400px;
+}
+.img_text{
+    width: 1300px;
+    height: 400px;
+}
+.com_img1{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.com_img1:hover{
+    cursor: pointer;
+}
+.text{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.com_img1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.com_img2{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.com_img2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.com_img3{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.com_img3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.img_text2{
+    width: 1300px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    width: 1300px;
+    height: 400px;
+    margin: 20px auto;
+}
+.rsp{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: blanchedalmond;
+}
+.rsp:hover{
+    cursor: pointer;
+}
+.rsp img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
