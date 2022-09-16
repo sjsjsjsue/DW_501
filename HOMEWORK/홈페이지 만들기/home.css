@@ -40,14 +40,14 @@ body{
 .center{
     width: 1300px;
     height: 700px;
-    display: flex;
-    background-color: #eae8e8;
-}
+    display: flex;  
+}               
 .left{
     width: 350px;
     height: 700px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(91, 0, 0);
 }
 .new{
     border: 1px solid #999;
@@ -75,11 +75,12 @@ body{
     padding-right: 10px;
 }
 .idpass input{
-    width: 200px;
+    width: 190px;
     height: 28px;
     font-size: 13pt;
     border: 1px solid #999;
-    border-radius: 10px;
+    border-radius: 10px;  
+    padding-left: 10px;
 }
 .text{
     font-size: 20px;
@@ -98,6 +99,7 @@ body{
 }
 .button button:hover{
     cursor: pointer;
+    
 }
 .new_find{
     display: flex;
@@ -122,24 +124,23 @@ body{
     margin-top: 30px;
 }
 .li_menu a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .li_div{
-    border: 1px solid rgb(198, 202, 240);
     font-size: 30px;
     font-weight: 800;
     margin: 10px;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-    background-color: rgb(198,202,240);
+    color: white;
 }
 .li_div:hover{
     cursor: pointer;
 }
 .right{
-    background-color: #eae8e8;
+    background-color:rgb(91, 0, 0);
     width: 950px;
     height: 700px;
 }
@@ -147,7 +148,6 @@ body{
     width: 700px;
     height: 270px;
     margin: 70px auto;
-    background-color: aquamarine;
 }
 .right_img img{
     width: 700px;
